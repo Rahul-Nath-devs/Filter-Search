@@ -1,0 +1,81 @@
+
+
+/* css starts */
+
+body{
+    font-family: arial;
+   
+}
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+    background-color: skyblue;
+    border-radius: 5px;
+    height: 790px;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.heading h2{
+    font-size: 40px;
+   background:url(../image/text\ bgjpg.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#myTable{
+    border-collapse: collapse;
+    width: 100%; 
+    border: 1px solid #ddd; 
+    font-size: 18px;
+    background-color: white;
+}
+
+#myTable th{
+    text-align: left; 
+    padding: 12px; 
+  }
+
+  #myTable td{
+    text-align: left; 
+    padding: 12px; 
+  }
+
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+    transition: 0.2s;
+  }
+  
+
+#inputHere{
+    width: 80%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 50px;
+   position: relative;
+   border: 2px solid orangered;
+   margin-left: 70px;
+   color: black;
+   background-color: #f9f4f4e3;
+}
+
+
+#myTable tr:hover{
+    background-color: #bda6f3a1;
+}
+
+/* css ends */
